@@ -59,6 +59,8 @@ fi
 #### Show ftp-backup settings
 echo "----------------------------"
 echo "FTP-backup settings:"
+echo "localdir=\"$localdir\""
+echo "remotedir=\"$remotedir/$strLocalIP\""
 echo "backupip=\"$backupip\""
 echo "backupport=\"$backupport\""
 echo "backupuser=\"$backupuser\""
