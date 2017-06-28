@@ -21,7 +21,7 @@
 # - it seems, that this script unexpectedly works with file    #
 #   links located in folder/subfolder to be backuped.          #
 #                                                              #
-# (c) 2017 Mashkin S.V.                                        #
+# (c) 2017 Mashkin S.V. / mashkh@yandex.ru                     #
 ################################################################
 
 echo
