@@ -31,11 +31,12 @@ echo "Making backup on ftp-server..."
 # PARAMETERS                                                   #
 ################################################################
 
-# Note: local IP address may be used as name of main folder for backup on remote FTP-server
+# Note: local IP address may be used as name of destination folder
+# for backup on remote FTP-server.
 #strLocalIP=`ifconfig eth0 | grep -Eo 'inet (addr:)?([0-9]*\.){3}[0-9]*' | grep -Eo '([0-9]*\.){3}[0-9]*' | grep -v '127.0.0.1'`
 strLocalIP="192.168.1.123"
 
-localdir="."
+localdir="/localfolder"
 remotedir="/"
 backupip="192.168.1.122"
 backupport="21"
