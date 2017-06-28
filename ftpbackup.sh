@@ -82,7 +82,7 @@ echo "Counting files in local $localdir ..."
 for f in $(find $localdir)
 do
     if [ -d "$f" ] ; then
-        echo
+        :
     else
         numLocalFiles=$((numLocalFiles+1))
     fi
@@ -134,6 +134,7 @@ do
     parentdir="$(dirname "$f")"
 
     if [ -d "$f" ]
+        :
     then
         
         currdir="$f"
