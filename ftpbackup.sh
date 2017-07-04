@@ -135,9 +135,7 @@ do
 
     parentdir="$(dirname "$f")"
 
-    if [ -d "$f" ]
-        :
-    then
+    if [ -d "$f" ] ; then
         
         currdir="$f"
         
